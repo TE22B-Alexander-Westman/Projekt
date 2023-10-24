@@ -2,3 +2,24 @@ body{
     margin: 0px;
     background-color: #fff;
 }
+
+header{
+    width: auto;
+    height: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 72px;
+    font-family: 'Jomhuria', serif;
+    color: #fff;
+
+    background-color: #F8DFAF;
+}
+
+header > h1{
+    margin: auto;
+
+    letter-spacing: 4px;
+}
