@@ -23,3 +23,49 @@ header > h1{
 
     letter-spacing: 4px;
 }
+
+nav{
+    width: auto;
+    height: 20px;
+
+    background-color: #FFE5B1;
+    border-bottom: 4px solid black;
+}
+
+section{
+    width: auto;
+    height: 600px;
+
+    background-image: url(https://cdn.snellman.fi/app/uploads/2023/02/core3ufbtwqsiuffumgpxq.jpg?format=webp&fit=cover);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 4px solid black;
+}
+
+.ruta-1{
+    font-size: 72px;
+    font-family: 'Jomhuria', serif;
+    color: #fff;
+    
+    background-color: #FFE5B1;    
+    letter-spacing: 3px;
+
+    margin: auto;
+    margin-top: 44px;
+    width: 400px;
+    height: 90px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 4px solid black;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 5px #151515;    
+}
