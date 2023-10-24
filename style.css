@@ -113,8 +113,40 @@ main{
 
 .grid-1 > .ikoner > .ikon > p{
     margin: 1px;
-    
+
     color: #fff;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grid-1 > .img > img{
+    width: 110%;
+    height: 90%;
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #151515;
+}
+
+.grid-1 > .img{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredienser{
+    margin-top: 25px;
+    background-color:#FFE5B1;
+    color: black;
+    
+
+    width: 500px;
+    height: auto;
+
+    border: 4px solid black;
+    border-radius: 20px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #151515;
 }
